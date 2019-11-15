@@ -1,0 +1,45 @@
+.flex-container {
+  display: flex;
+  background-color: lightgrey;
+  overflow-x: auto;
+  width: 50%;
+  height: 350px;
+  margin-bottom: 30px;
+}
+
+.flex-container > div {
+  text-align: center;
+  margin: 10px 15px;
+  font: 17px arial, sans-serif;
+}
+
+.row-title {
+  font: italic bold 28px/30px Georgia, serif;
+}
+
+.btn {
+  visibility: hidden;
+}
+
+.item-detail:hover {
+  cursor: pointer;
+}
+
+.item-detail:hover .btn,
+.btn:hover {
+  visibility: visible;
+}
+
+.catalog-container {
+}
+
+.img-icon {
+  width: 150px;
+  height: 150px;
+  border: 5px solid grey;
+}
+
+.img-detail {
+  width: 300px;
+  height: 300px;
+}
